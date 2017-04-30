@@ -94,6 +94,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\314-348x348.jpg" />
+    <Content Include="Images\3b-348x348.jpg" />
+    <Content Include="Images\42-348x348.jpg" />
+    <Content Include="Images\italy-mountain-villa.jpeg" />
+    <Content Include="Images\modern-villa.jpeg" />
+    <Content Include="Images\tuscany-grape-field-nature-51947.jpeg" />
+    <Content Include="Images\tuscany-villas-sant-anna.jpg" />
+    <Content Include="Images\Versilia.jpg" />
+    <Content Include="Images\Villa-Rucellai-Toscani-2812-2-348x348.jpg" />
+    <Content Include="Images\Villa-Vanna-231-348x348.jpg" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -106,11 +117,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="site.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
